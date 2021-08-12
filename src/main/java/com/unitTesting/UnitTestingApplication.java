@@ -13,8 +13,7 @@ public class UnitTestingApplication {
 
 	public static void main(String[] args) {
 		applicationContext=SpringApplication.run(UnitTestingApplication.class, args);
-		checkBeansPresence(
-				"bean1","bean2");
+
 	}
 
 	private static void checkBeansPresence(String... beans) {
